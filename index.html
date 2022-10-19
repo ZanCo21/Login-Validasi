@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body style="background-size: cover; background-image: url(asset/bglogin.gif);">
+    <div class="zan-login" id="container">
+        <div class="login">
+            <div class="isi-right">
+                <h2 class="judul-login">Login</h2>
+                <div class="input">
+                    <label for="">Username</label>
+                    <input type="text" id="usernama" onkeydown="setTimeout(nama,2000)" onkeyup="setTimeout(nama1,2000)">
+                    <p id="outputNama" style="font-size: 15px; color: red;"></p>
+                </div>
+                <div class="input">
+                    <label for="">Password</label>
+                    <input type="password" id="password" onkeyup="pass()">
+                    <p id="outputPassword" style="font-size: 15px; color: red;"></p>
+                </div>
+                <div class="dont-login">
+                    <br >
+                    <label for="" >Don’t have an account?</label>
+                    <a href="register.php">Go To Register</a>
+                    </div>
+                <button onclick="submit()" style=" margin-top: 5%; background: linear-gradient(to right, #11998e, #38ef7d); border: none; color: white; width: 257px; height: 35px; font-weight: bold;">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container Dua -->
+    <div class="containertiga" id="containertiga">
+        <div style="position: absolute;">
+            <label for="" style="color: #38ef7d;">Username :</label>
+            <label id="hasilnama" style="color: #52b3ec;"></label>
+        </div>
+
+            <div id="game">
+                
+            </div>
+            <button onclick="reset()">Reset</button>
+    </div>
+
+    <!-- Script.js -->
+    <script src="script.js"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

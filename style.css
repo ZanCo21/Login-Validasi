@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a :hover{
+    color: #11998e;
+}
+
+/* login */
+.zan-login {
+    background-color: white;
+    width: 450px;
+    height: 655px;    
+    float: left;
+    padding: 100px 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+
+.judul-login{
+    /* position: absolute; */
+    /* margin-left: 23%; */
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.isi-left{
+    display: flex;
+}
+
+.isi-left img{
+    width: 300px;
+}
+.zan-login h2{
+    color: #11998e;
+
+}
+
+.isi-left p{
+    font-weight: bold;
+    margin-top: 6.5%;
+    margin-left: 2%;
+}
+
+.isi-right input{
+    height: 30px;
+    width: 250px;
+    line-height: 30px;
+    margin-top: 2px;
+}
+
+.isi-right input:focus{
+    border-color: #38ef7d;
+}
+
+.isi-right{
+    position: relative;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.dont-login label{
+    font-size: 10px;
+}
+
+.dont-login a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* regist */
+.zan-regist{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    float: right;
+    text-align: left;
+    line-height: 30px;
+    padding: 2% 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+
+}
+
+.zan-regist h2{
+    text-align: center;
+    color: #11998e;
+
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.sub h2{
+    margin-left: 5%;
+    font-weight: bold;
+    margin-top: 10%;
+    color: white;
+    letter-spacing: 5px;
+    position: fixed;
+    font-size: 45px;
+}
+
+.desc{
+    display: flex;
+    line-height: 5rem;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 36%;
+    margin-left: 5%;
+    position: fixed;
+}
+
+.desc a{
+    color: #d3d3d3;
+}
+
+.desc a :hover{
+    color: #11998e;
+}
+
+.foot{
+    margin-top: 41%;
+    margin-left: 5%;
+    position: fixed;
+    font-size: 10px;
+    color: white;
+
+}
+
+.foot a{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.foot a :hover{
+    color: #11998e;
+}
+
+        .containertiga{
+            /* margin-top: 1%; */
+            padding: 10px 25px;
+            margin-left: 25%;
+            width: 700px;
+            height: 600px;
+            background-color: white;
+            display: none;
+            border-radius: 15px;
+        }
+
+        .containertiga p{
+            text-align: center;
+            font-weight: 900;
+            font-size: 25px;
+            color: #11998e;
+        }
+        .containertiga button{
+            margin-left: 42%;
+            margin-top: 2%;
+            padding: 12px 36px;
+            background: linear-gradient(to right, #11998e, #38ef7d);
+            border: none;
+            color: white;
+        }
+
+    canvas{
+        border:1px solid #d3d3d3;
+        background-color: #f1f1f1;
+    }
+
+/* input */
+input{
+    border:solid 1px #ccc;
+}
+
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+ }
